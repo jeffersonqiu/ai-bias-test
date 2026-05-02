@@ -1,0 +1,12 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+results/raw/*.csv
+results/aggregated/*.csv
+results/charts/*.png
+# uv — lock file should be committed; .venv should not
+# uv.lock  (do NOT ignore — commit it for reproducibility)
